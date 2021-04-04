@@ -3,10 +3,29 @@
 // $> ./factoriel 3
 // 6
   var readline = require("readline-sync");
-var factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
-var resultat = 1 ;
-for(var i = 1 ; i <= factorielle ; i++){
-        resultat = resultat * i ;
+const factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
+
+ 
+ function facto(nDeMaFonction){
+  
+     if( nDeMaFonction == 1){
+          return 1;
+      }   else {
+            return nDeMaFonction * facto(nDeMaFonction - 1);;   
+        }
+  }
+        console.log(facto(factorielle))
+     
+  
       
-}
-        console.log(resultat ); 
+
+// for(var i = 1 ; i <= factorielle ; i++){
+//         factorielleat = factorielleat * i ;
+      
+
+  //         if (x > 0) {
+  //           return (1 + foo(x - 1));
+  //         }
+  //         return 0;
+  //       }
+        
