@@ -18,14 +18,3 @@ const factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
      
   
       
-
-// for(var i = 1 ; i <= factorielle ; i++){
-//         factorielleat = factorielleat * i ;
-      
-
-  //         if (x > 0) {
-  //           return (1 + foo(x - 1));
-  //         }
-  //         return 0;
-  //       }
-        
