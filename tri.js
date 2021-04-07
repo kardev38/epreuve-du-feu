@@ -5,6 +5,6 @@
 // $> ./tri 4 5 1 3 2
 // // 5 4 3 2 1
  
-const tab = process.argv.slice(2)
-
-
+var tab = process.argv.slice(2);
+for(i = 0 ; i < tab.length ; i++);
+console.log(tab);
