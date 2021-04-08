@@ -6,5 +6,11 @@
 // // 5 4 3 2 1
  
 var tab = process.argv.slice(2);
-for(i = 0 ; i < tab.length ; i++);
-console.log(tab);
+for(i = 0 ; i <= tab.length ; i++){
+  for (var j = 0 ; j <= tab.length; j++) {
+    
+    
+  }
+}
+console.log(i);
+console.log(j);
