@@ -8,7 +8,7 @@
 var tab = process.argv.slice(2);
 console.log("saisie initiale : " + tab );
 for(i = 0 ; i < tab.length ; i++){
-  var min = i ; 
+   
   for (var j = 0 ; j < tab.length; j++) {
     
     
