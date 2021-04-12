@@ -8,13 +8,14 @@
 var tab = process.argv.slice(2);
 console.log("saisie initiale : " + tab );
 for(i = 0 ; i < tab.length ; i++){
-   
-  for (var j = 0 ; j < tab.length; j++) {
-    
+  console.log((i - 1) < tab.length)
+  var tampon = i ; 
+  for (var j = i + 1 ; j < tab.length; j++) {
+
+    }
     
   }
-}
+
 console.log("saisie Trié : ")
-console.log(i);
-console.log(j);
+
 
