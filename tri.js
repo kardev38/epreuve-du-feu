@@ -6,16 +6,23 @@
 // // 5 4 3 2 1
  
 var tab = process.argv.slice(2);
-console.log("saisie initiale : " + tab );
-for(i = 0 ; i < tab.length ; i++){
-  console.log((i - 1) < tab.length)
-  var tampon = i ; 
-  for (var j = i + 1 ; j < tab.length; j++) {
 
+console.log("saisie initiale : " + tab );
+
+function tri(array){
+  for(i = 0 ; i < array.length ; i++){
+     for(j = 1; j < array.length ; j++){
+      var tmp = array[j];
+      if(array[j] > array [j + 1]){
+       tmp = array[j];
+       array[j] = array[j+1];
+       array[j+1] = tmp;
+       
+      }
+      return array[j];
     }
     
-  }
-
-console.log("saisie Trié : ")
-
+  } 
+       tri(array[j]) = tab ;
+    console.log("saisie Trié : " + tab);
 
