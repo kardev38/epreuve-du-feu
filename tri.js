@@ -1,28 +1,29 @@
-// Créer un script qui affiche les valeurs qui lui sont passées en argument triées par ordre 
+// Créer un script qui affiche les valeurs qui lui sont passées en argument triées par ordre
 // décroissant.
 // Bonus : implémenter plusieurs algorithme de tri (tri à bulle, tri sélectif, ... )
 // Ex. d’appel du script :
 // $> ./tri 4 5 1 3 2
 // // 5 4 3 2 1
- 
+
 var tab = process.argv.slice(2);
 
-console.log("saisie initiale : " + tab );
+console.log("saisie initiale : " + tab);
 
-function tri(array){
-  for(i = 0 ; i < array.length ; i++){
-     for(j = 1; j < array.length ; j++){
+function tri(array) {
+  for (var j = 0; j < array.length - 1; j++) {
+    if (array[j] < array[j + 1]) {
       var tmp = array[j];
-      if(array[j] > array [j + 1]){
-       tmp = array[j];
-       array[j] = array[j+1];
-       array[j+1] = tmp;
-       
-      }
-      return array[j];
+      array[j] = array[j + 1];
+      array[j + 1] = tmp;
     }
-    
-  } 
-       tri(array[j]) = tab ;
-    console.log("saisie Trié : " + tab);
+  }
+  return array;
+}
 
+// premiere boucle => j=0 => 4 5 1 3 2
+// deuxieme boucle => j=1 => 4 1 5 3 2
+// troisieme boucle => j=2 => 4 1 3 5 2
+//  quatrieme boucle => j=3 => 4 1 3 2 5
+
+var tabtrie = tri(tab);
+console.log("saisie Trié : " + tabtrie);
