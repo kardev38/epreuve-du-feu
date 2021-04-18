@@ -6,12 +6,12 @@
  var factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
 
  
- function facto(nDeMaFonction){
+ function facto(n){
   
-     if( nDeMaFonction == 1){
+     if( n == 1){
           return 1;
       }   else {
-            return nDeMaFonction * facto(nDeMaFonction - 1);;   
+            return n * facto(n - 1);;   
         }
   }
           
