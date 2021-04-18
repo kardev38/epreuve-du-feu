@@ -15,7 +15,4 @@
         }
   }
           
-        console.log(facto(factorielle))
-     
-  
-      
+        console.log(facto(factorielle));
