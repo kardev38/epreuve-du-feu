@@ -3,7 +3,7 @@
 // $> ./factoriel 3
 // 6
   var readline = require("readline-sync");
-const factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
+ var factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
 
  
  function facto(nDeMaFonction){
@@ -14,6 +14,7 @@ const factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
             return nDeMaFonction * facto(nDeMaFonction - 1);;   
         }
   }
+          
         console.log(facto(factorielle))
      
   
