@@ -5,8 +5,9 @@
 // 2,1
 // $> cat c1.txt
 
-var fs = require('fs');
-var rec1 = fs.readFileSync('c1.txt').toString().split("\n");  
-var rec2 = fs.readFileSync('c2.txt').toString().split("\n");
-console.log(rec1);
-console.log(rec2);
+
+const fs = require("fs");
+const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split("\n");
+const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("\n");
+console.log(c1);
+console.log(c2);
