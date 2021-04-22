@@ -6,21 +6,14 @@
 var readline = require("readline-sync");
 var factorielle = readline.questionInt("Quelle factorielle voulez-vous : ");
 
- 
- function facto(n){
-  
-     if( n == 1){
-          return 1;
-      }   else {
-            return n * facto(n - 1);;   
-        }
+function facto(n) {
+  if (n == 1) {
+    return 1;
+  } else {
+    return n * facto(n - 1);
   }
-          
-        
+}
 
-        var optimoser = facto(factorielle)
-        optimoser = optimoser.toLocaleString()
-        console.log(optimoser)
-       
-     
-  
+var optimoser = facto(factorielle);
+optimoser = optimoser.toLocaleString();
+console.log(optimoser);
