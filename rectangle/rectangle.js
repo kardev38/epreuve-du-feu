@@ -11,12 +11,8 @@ const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("\r\n");
 console.log(c1);
 console.log(c2);
 
-
-
-    for(var i=0 ; i < c1.length ; i ++){
-       for(var j=0 ; j < c2.length ; j++){
-       
-            console.log(c1 , c2)
-        
-       }
-    }
+for (var i = 0; i < c1.length; i++) {
+  for (var j = 0; j < c2.length; j++) {
+    console.log(c1, c2);
+  }
+}
