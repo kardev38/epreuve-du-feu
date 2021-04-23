@@ -23,7 +23,3 @@ function tri(array) {
 var tabtrie = tri(tab);
 console.log("saisie Trié : " + tabtrie);
 
-// premiere boucle => j=0 => 4 5 1 3 2
-// deuxieme boucle => j=1 => 4 1 5 3 2
-// troisieme boucle => j=2 => 4 1 3 5 2
-//  quatrieme boucle => j=3 => 4 1 3 2 5
