@@ -11,8 +11,17 @@ const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("\r\n");
 console.log(c1);
 console.log(c2);
 
-for (var i = 0; i < c1.length; i++) {
-  for (var j = 0; j < c2.length; j++) {
-    console.log(c1, c2);
+var valeur = [0][1];
+function position(Array1 , Array2){
+  for (var i = 0; i < c2.length; i++) {
+    for (var j = 0; j < c1.length; j++) {
+        if(Array1[i]> Array2[j-1]){
+         
+        }
+        console.log(Array2[j])
+    }
   }
 }
+// parcourir le tableau c2 en cherchant le premier element du tableau c1
+// ensuite cherche le deuxieme element
+
