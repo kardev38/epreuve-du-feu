@@ -16,7 +16,7 @@ console.log(c2);
     for(var i=0 ; i < c1.length ; i ++){
        for(var j=0 ; j < c2.length ; j++){
        
-            console.log(j , i)
+            console.log(c1 , c2)
         
        }
     }
