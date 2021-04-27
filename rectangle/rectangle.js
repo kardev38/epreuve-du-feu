@@ -14,7 +14,9 @@ console.log(c1.split("\n"));
 console.log(c2.split("\n"));
 
 function positionc1dansc2(arr1, arr2){
-    
+    for (i = 0; i < arr2.length; i++){
+        
+    }
 }
    
 
