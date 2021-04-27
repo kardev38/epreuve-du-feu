@@ -6,12 +6,18 @@
 // $> cat c1.txt
 
 const fs = require("fs");
-const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split("\r\n");
-const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("\r\n");
+const c1 = fs.readFileSync("./" + process.argv[2], "utf-8");
+const c2 = fs.readFileSync("./" + process.argv[3], "utf-8");
 console.log(c1);
 console.log(c2);
+console.log(c1.split("\n"));
+console.log(c2.split("\n"));
+
+
+   
 
 
 // parcourir le tableau c2 en cherchant le premier element du tableau c1
 // ensuite cherche le deuxieme element de c1 dans c2
-
+// .split("\r\n");
+// .split("\r\n");
