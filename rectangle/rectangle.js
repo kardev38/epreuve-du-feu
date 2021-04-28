@@ -6,12 +6,10 @@
 // $> cat c1.txt
 
 const fs = require("fs");
-const c1 = fs.readFileSync("./" + process.argv[2], "utf-8");
-const c2 = fs.readFileSync("./" + process.argv[3], "utf-8");
+const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split("\n");
+const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("\n");
 console.log(c1);
 console.log(c2);
-console.log(c1.split("\n"));
-console.log(c2.split("\n"));
 
 function positionc1dansc2(arr1, arr2){
     for (i = 0; i < arr2.length; i++){
@@ -20,7 +18,9 @@ function positionc1dansc2(arr1, arr2){
         }
     }
 }
+
    
+//
 
 
 // parcourir le tableau c2 en cherchant le premier element du tableau c1
