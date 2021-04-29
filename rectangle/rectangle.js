@@ -14,10 +14,17 @@ console.log(c2);
 function positionc1dansc2(arr1, arr2){
     for (i = 0; i < arr2.length; i++){
         for (j = 0; j < arr2[i].length; j++){
-            
+           if(arr2[i][j].length == arr1[0]){
+               console.log( true);
+               
+               } else{
+                console.log(false);
+               }
+           } 
         }
     }
-}
+    console.log( false || true)
+
 
    
 //
