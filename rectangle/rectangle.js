@@ -6,15 +6,15 @@
 // $> cat c1.txt
 
 const fs = require("fs");
-const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split("");
-const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("");
+const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split('');
+const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('');
 console.log(c1);
 console.log(c2);
 
 function positionc1dansc2(arr1, arr2) {
   for (i = 0; i < arr2.length; i++) {
     for (j = 0; j < arr2[i].length; j++) {
-      
+
     }
   }
 }
