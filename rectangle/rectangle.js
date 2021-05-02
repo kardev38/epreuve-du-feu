@@ -6,8 +6,8 @@
 // $> cat c1.txt
 
 const fs = require("fs");
-const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split('');
-const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('');
+const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split('').map(Number);
+const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('').map(Number);
 console.log(c1);
 console.log(c2);
 
