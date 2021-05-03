@@ -13,7 +13,7 @@ console.log(c2);
 
 function position(arr1, arr2) {
   for (i = 0; i < arr2.length; i++) {
-    for (j = 0; j < arr2[i].length; j++) {
+    for (j = 0; j < arr2.length; j++) {
 
     }
   }
