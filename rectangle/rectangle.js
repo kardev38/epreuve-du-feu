@@ -11,7 +11,7 @@ const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('').map(Number
 console.log(c1);
 console.log(c2);
 
-function po(arr1, arr2) {
+function posi(arr1, arr2) {
   for (i = 0; i < arr2.length; i++) {
     for (j = 0; j < arr2[i].length; j++) {
 
