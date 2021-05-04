@@ -19,5 +19,6 @@ function position(tab1, tab2) {
   }
 }
 
+// afficher les fichier en tableau avec chaque element separée "bien propre"
 // parcourir le tableau c2 en cherchant le premier element du tableau c1
 // ensuite cherche le deuxieme element de c1 dans c2
