@@ -13,7 +13,7 @@ console.log(c2);
 
 function positionindex(tab1, tab2) {
   for (i = 0; i < tab2.length; i++) {
-    for (j = 0; j < tab2.length; j++) {
+    for (j = 0; j < tab2[i].length; j++) {
 
     }
   }
