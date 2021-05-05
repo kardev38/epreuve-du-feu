@@ -12,8 +12,8 @@ console.log(c1);
 console.log(c2);
 
 function posIndex(arr1, arr2) {
-  for (i = 0; i<arr2.length;i++) {
-    for (j = 0; j<arr2[i].length;j++) {
+  for (i=0;i<arr2.length;i++) {
+    for (j=0;j<arr2[i].length;j++) {
 
     }
   }
