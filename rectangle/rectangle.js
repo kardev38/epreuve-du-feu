@@ -12,8 +12,8 @@ console.log(c1);
 console.log(c2);
 
 function positionindes(tab1, tab2) {
-  for ( i = 0;i<tab2.length;i++) {
-    for (j=0;j<tab2[i].length;j++) {
+  for ( i = 0 ; i <tab2.length;i++) {
+    for ( j = 0 ; j < tab2[i].length;j++) {
 
     }
   }
