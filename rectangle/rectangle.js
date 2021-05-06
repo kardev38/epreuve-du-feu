@@ -11,9 +11,9 @@ const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('').map(Number
 console.log(c1);
 console.log(c2);
 
-function posIndex(arr1, arr2) {
-  for (i=0;i<arr2.length;i++) {
-    for (j=0;j<arr2[i].length;j++) {
+function positionindes(tab1, tab2) {
+  for ( i = 0;i<tab2.length;i++) {
+    for (j=0;j<tab2[i].length;j++) {
 
     }
   }
