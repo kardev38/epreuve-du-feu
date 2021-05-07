@@ -18,7 +18,7 @@ function positionindes(tab1, tab2) {
     }
   }
 }
-// achicher les tableau en long dans le terminal
+// achicher les tableau en longeur dans le terminal
 // afficher les fichier en tableau avec chaque element separée "bien propre"
 // parcourir le tableau c2 en cherchant le premier element du tableau c1
 // ensuite cherche le deuxieme element de c1 dans c2
