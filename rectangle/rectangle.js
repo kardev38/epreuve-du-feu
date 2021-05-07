@@ -6,13 +6,13 @@
 // $> cat c1.txt
 
 const fs = require("fs");
-const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split('').map(Number);
-const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('').map(Number);
+const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split('\n');
+const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('\n');
 console.log(c1);
 console.log(c2);
 
 function positionindes(tab1, tab2) {
-  for ( i = 0 ; i <tab2.length;i++) {
+  for ( i = 0 ; i < tab2.length;i++) {
     for ( j = 0 ; j < tab2[i].length;j++) {
 
     }
