@@ -19,6 +19,10 @@ function positionindes(tab1, tab2) {
   }
 }
 // afficher les tableau en longueur dans le terminal
+// [ '123\r', '321\r', '123' ]
+// [ '930870\r', '081235\r', '973217\r', '091230\r', '883700' ]
 // afficher les fichier en tableau avec chaque élément séparée "bien propre"
+[[1,2,3][3,2,1][1,2,3]]
+[[9,3,0,8,7,0][0,8,1,2,3,5][9,7,3,2,1,7][0,9,1,2,3,0][8,8,3,7,0,0]]
 // parcourir le tableau c2 en cherchant le premier élément du tableau c1
 // ensuite cherche le deuxième élément de c1 dans c2
