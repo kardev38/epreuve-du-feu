@@ -11,9 +11,11 @@ const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split('\n');
 console.log(c1);
 console.log(c2);
 
-function positionindes(tab1, tab2) {
-  for ( i = 0 ; i < tab2.length;i++) {
+function positionindes(tab1, tab2) {    
+  for ( i = 0 ; i < tab2.length;i++) { 
+                                         // boucle pour parcourir les ligne du tableau c2  
     for ( j = 0 ; j < tab2[i].length;j++) {
+                                         // boucles pour parcourir les colonne de c2
 
     }
   }
