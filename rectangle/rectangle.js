@@ -16,7 +16,7 @@ function positionindes(tab1, tab2) {
     // boucle pour parcourir les ligne du tableau c2
 
     for (j = 0; j < tab2[i].length; j++) {
-      // boucles pour parcourir les colonne de c2
+      // boucles pour parcourir les colonne du tableau c2
     }
   }
 }
