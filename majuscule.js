@@ -2,7 +2,7 @@
 // chaîne de caractères du premier argument.
 // Ex. d’appel du script :
 // $> ./majuscule “Bien le bonjour!”
-// bIeN lE bOnJoUr
+// bien LE bonjour
 
 var readline = require("readline-sync");
 var phrase = readline.question("Saisir une phrase : ");
