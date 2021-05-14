@@ -6,7 +6,7 @@ for (var i = 0; i < nb_etages; i++) {
 }
 
 // crée une variable de l'argument saisi
-// dire que l'argument est le nombres darche a afficher 
+// dire que l'argument est le nombres de marche a afficher 
 // l'argument saisi sera aussi le nombres d'iteration de la boucle
 // a chaque iteration on dira que espace sera -1 et diez +1
 
