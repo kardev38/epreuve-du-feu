@@ -11,7 +11,9 @@ const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("\n");
 console.log(c1);
 console.log(c2);
 
-
+for(var i = 0; i < c2.length ; i++){
+    console.log("ligne"+i)
+}
 
 
 
