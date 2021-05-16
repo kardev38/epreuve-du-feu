@@ -12,7 +12,7 @@ console.log(c1);
 console.log(c2);
 
 for(var i = 0; i < c2.length ; i++){
-    console.log("ligne"+i)
+    console.log("ligne "+ i + " du tableau c2");
 }
 
 
