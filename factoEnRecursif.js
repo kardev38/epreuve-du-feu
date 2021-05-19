@@ -16,3 +16,5 @@
   }
           
         console.log(facto(factorielle));
+
+        // bientot le pseudo code sur cette exercice aussi
