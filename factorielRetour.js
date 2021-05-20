@@ -17,3 +17,5 @@ function facto(n) {
 var optimoser = facto(factorielle);
 optimoser = optimoser.toLocaleString();
 console.log(optimoser);
+
+// bientot le pseudo code de l'exercice
