@@ -5,4 +5,5 @@
 // $> ./anagramme arbre fr.txt
 // [“arbre”, “barre”]
 
-// bientot le pseudo code de l'exercice
+// bientot le pseudo code de l'exercice "annagrammes.js"
+
