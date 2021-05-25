@@ -23,3 +23,5 @@ function tri(array) {
 var tabtrie = tri(tab);
 console.log("saisie Trié : " + tabtrie);
 
+// bientot le pseudo code
+
