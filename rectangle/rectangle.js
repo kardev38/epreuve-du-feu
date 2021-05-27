@@ -8,12 +8,15 @@
 const fs = require("fs");
 const c1 = fs.readFileSync("./" + process.argv[2], "utf-8").split("\n");
 const c2 = fs.readFileSync("./" + process.argv[3], "utf-8").split("\n");
-console.log(c1);
-console.log(c2);
+// console.log(c1);
+// console.log(c2);
+
 
 for(var i = 0; i < c2.length ; i++){
+    
     console.log("ligne "+ i + " du tableau c2");
 }
+
 
 
 
