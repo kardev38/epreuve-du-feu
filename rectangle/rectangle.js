@@ -16,7 +16,7 @@ for(var i = 0; i < c2.length ; i++){
     
     console.log("ligne "+ i + " du tableau c2");
 }
-//bientot le code cette exercice un peu 
+//bientot le pseudo code cette exercice un peu 
 // complexe je dirait.
 
 
