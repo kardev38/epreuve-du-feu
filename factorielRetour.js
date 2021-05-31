@@ -18,5 +18,5 @@ var optimoser = facto(factorielle);
 optimoser = optimoser.toLocaleString();
 console.log(optimoser);
 
-// bientot le pseudo code de l'exercice
+// bientot le pseudo code de l'exercice.
 // méme probleme que l'exercice factoEnRecursif
