@@ -19,4 +19,4 @@ optimoser = optimoser.toLocaleString();
 console.log(optimoser);
 
 // bientot le pseudo code de l'exercice.
-// méme probleme que l'exercice factoEnRecursif
+// méme probleme que l'exercice factoEnRecursif.
