@@ -19,7 +19,7 @@
 // 3_6|529|147
 // 472|1_3|985
 // ---+---+---
-// 637|852|419
+// 637|852|419      
 // 859|6_1|732
 // 214|397|658
 // ---+---+---
@@ -27,5 +27,5 @@
 // 5_8|976|321
 // 761|235|8_4
 
-// bientot le code et le pseudo code desolé du retard 
+// bientot le code et le pseudo code desolé du retard,
 //   "je suis vraiment charger en ce moment"
