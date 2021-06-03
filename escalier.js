@@ -22,5 +22,5 @@ for (var i = 0; i < nb_etages; i++) {
 //  -Un test pour vérifier si la valeur actuelle de la boucle B 
 //  est inférieure à la valeur en entier du premier argument moins la valeur actuelle de la boucle A
 //  -Si c'est vrais, alors il faut afficher un espace ( )
-//  -Sinon, il faut afficher une dièse (#)
+//  -Sinon, il faut afficher une dièse (#).
 // -Afficher un retour à la ligne (\n)
