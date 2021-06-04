@@ -26,3 +26,4 @@ console.log("saisie Trié : " + tabtrie);
 // bientot le pseudo code de l'exercice tri.js
 // un algorithme de tri
 
+
