@@ -31,6 +31,6 @@ console.log(phrase2);
 // --transforme la chaine de caractère en tableau avec une "fonction" selon le langage choisi
 // --faire une boucle qui parcours le tableau du premier au dernier élément de ce tableau
 // --pour chaque itération de la boucle on dit que si l'index est modulo 2 "donc pair" ,
-//  Alor on afficher en majuscule l'élément en question
+//  Alor on afficher en majuscule l'élément en question.
 // --sinon si l'index est "impair" alors  on affiche l'élément en minuscule.
 
