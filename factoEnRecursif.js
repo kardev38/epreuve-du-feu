@@ -18,5 +18,5 @@
         console.log(facto(factorielle));
 
         // bientot le pseudo code sur cette exercice aussi
-        // c'est pas facile d'explique de maniere explicite la recursivité
+        // c'est pas facile d'explique de maniere explicite la recursivité,
         // et de ce faire comprendre.
