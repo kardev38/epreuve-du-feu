@@ -6,4 +6,4 @@
 // [“arbre”, “barre”]
 
 // bientot le pseudo code de l'exercice "annagrammes.js"
-// 
+
