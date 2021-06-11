@@ -3,7 +3,7 @@
 // Ex. d’appel du script :
 
 // $> ./anagramme arbre fr.txt
-// [“arbre”, “barre”]
+// [“arbre”, “barre”].
 
 // bientot le pseudo code de l'exercice "annagrammes.js"
 
