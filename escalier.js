@@ -15,7 +15,7 @@ for (var i = 0; i < nb_etages; i++) {
   console.log(" ".repeat(nb_etages - i) + "#".repeat(i + 1));
 }
 
-// -Faire une boucle A qui commence à 0 et qui va jusqu'à la valeur en entier du premier argument moins 1
+// -Faire une boucle A qui commence à 0 et qui va jusqu'à la valeur en entier du premier argument moins 1.
 // -Pour chaque itération de cette boucle, faire:
 //  -Une boucle B qui commence à 0 et qui va jusqu'à la valeur en entier du premier argument moins 1
 //  Pour chaque itération de cette boucle, faire:
