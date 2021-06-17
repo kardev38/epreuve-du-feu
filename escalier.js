@@ -17,7 +17,7 @@ for (var i = 0; i < nb_etages; i++) {
 
 // -Faire une boucle A qui commence à 0 et qui va jusqu'à la valeur en entier du premier argument moins 1.
 // -Pour chaque itération de cette boucle, faire:
-//  -Une boucle B qui commence à 0 et qui va jusqu'à la valeur en entier du premier argument moins 1
+//  -Une boucle B qui commence à 0 et qui va jusqu'à la valeur en entier du premier argument moins 1.
 //  Pour chaque itération de cette boucle, faire:
 //  -Un test pour vérifier si la valeur actuelle de la boucle B 
 //  est inférieure à la valeur en entier du premier argument moins la valeur actuelle de la boucle A
