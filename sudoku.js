@@ -27,5 +27,5 @@
 // 5_8|976|321
 // 761|235|8_4
 
-// bientot le code et le pseudo code
+// bientot le code et le pseudo code !
 
